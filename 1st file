@@ -1,0 +1,18 @@
+void main() {
+    const min = 60;
+    var userName = 'apoorv_21';
+    var followerCount =  400;
+    var followingCount = 500;
+    var watchTime = 40.9;
+    var hours = watchTime.toInt();
+    var minutes = (watchTime - hours) *min;
+    
+    var posts = 10;
+    var bio = 'I am a mobile developer \n Currently learning it :)';
+    print('Username : $userName');
+    print('followers count :$followerCount and following count :$followingCount ');
+    print('No. of pposts : $posts');
+    print('waatch hours : $hours hours and ${minutes.toInt()} minutes');
+    print('My bio is : \n $bio');
+  }
+
